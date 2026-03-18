@@ -3,5 +3,5 @@ function submitlogin (event){
     let password = document.getElementById ("password").value;
 
     alert ("Email: "+ email);
-    alert (
+    alert ("Password: "+ password);
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>bootstrap demo</title>
@@ -8,79 +8,21 @@
 </head>
 <body>
     <h1>registration form</h1>
-    <p>he he hele
-           <h2>Create Account</h2>
- 
-    <form action="#" method="POST">
- 
-      <div class="row">
-        <div class="form-group">
-          <label for="firstName">First Name</label>
-          <input type="text" id="firstName" name="firstName" placeholder="Juan" required />
-        </div>
-        <div class="form-group">
-          <label for="lastName">Last Name</label>
-          <input type="text" id="lastName" name="lastName" placeholder="dela Cruz" required />
-        </div>
-      </div>
- 
-      <div class="form-group">
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" placeholder="juan@email.com" required />
-      </div>
- 
-      <div class="form-group">
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" placeholder="+63 912 345 6789" />
-      </div>
- 
-      <div class="row">
-        <div class="form-group">
-          <label for="birthday">Birthday</label>
-          <input type="date" id="birthday" name="birthday" />
-        </div>
-        <div class="form-group">
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="" disabled selected>Select...</option>
-            <option>Philippines</option>
-            <option>United States</option>
-            <option>United Kingdom</option>
-            <option>Australia</option>
-            <option>Canada</option>
-            <option>Japan</option>
-            <option>Singapore</option>
-          </select>
-        </div>
-      </div>
- 
-      <div class="row">
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input type="password" id="password" name="password" placeholder="Min. 8 characters" required />
-        </div>
-        <div class="form-group">
-          <label for="confirm">Confirm Password</label>
-          <input type="password" id="confirm" name="confirm" placeholder="Repeat password" required />
-        </div>
-      </div>
- 
-      <div class="form-group">
-        <label class="checkbox-group">
-          <input type="checkbox" name="terms" required />
-          I agree to the <a href="#">Terms & Conditions</a>
-        </label>
-      </div>
- 
-      <button type="submit">Register</button>
- 
+
+    <form>
+
+      
+        <input type="email" id="email" name="email" placeholder="your email" required>
+<input type="password" id="password" name="password" placeholder="your password" required>
+
+
+
+
+<button onclick="submitlogin()">Login</button>
     </form>
- 
-    <div class="login-link">
-      Already have an account? <a href="#">Sign in</a>
-    </div>
- 
-  </div>
- 
-</body
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
 </html>
